@@ -1,0 +1,7 @@
+build
+*.exe
+*.out
+*.a
+*.so
+Debug
+Release
