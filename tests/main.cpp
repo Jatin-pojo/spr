@@ -12,3 +12,13 @@ TEST_CASE("Validate add3") {
   INFO("Adding 2, 4 and 3");
   REQUIRE(jlib::add3(2, 4, 3) == 9);
 }
+
+TEST_CASE("Validate sub2") {
+  INFO("Sub 2 and 3");
+  REQUIRE(jlib::sub2(3, 2) == 1);
+}
+
+TEST_CASE("Validate sub3") {
+  INFO("Sub 2, 4 and 3");
+  REQUIRE(jlib::sub3(2, 1, 1) == 0);
+}
