@@ -22,3 +22,9 @@ TEST_CASE("Validate sub3") {
   INFO("Sub 2, 4 and 3");
   REQUIRE(jlib::sub3(2, 1, 1) == 0);
 }
+
+TEST_CASE("Validate mul") {
+  INFO("Mul with 0");
+  REQUIRE(jlib::mul3(2, 0, 1) == 0);
+  REQUIRE(jlib::mul2(2, 0) == 0);
+}
